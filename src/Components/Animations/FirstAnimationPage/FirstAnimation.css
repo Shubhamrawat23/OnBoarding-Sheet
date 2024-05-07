@@ -1,0 +1,42 @@
+#backgroundScenery{
+    position: relative;
+    top: -57px;
+    left: 0px;
+    width: 360px;
+    height: 348.36px;  
+    border-radius: 20px;  
+}
+
+#bgSecondScenery{
+    position: relative;
+    top: -57px;
+    left: 0px;
+    width: 360px;
+    height: 288.36px;    
+}
+
+#bgScene{
+border-radius: 20px;
+}
+
+.carIcon{
+    position: relative;
+    top: 190px;
+    right: 430px;
+    transform: translateX(0);
+    width: 91.03px;
+    height: 46.18px;
+}
+
+.moveAnimation{
+    animation: carMove 3s ease-in-out 1 forwards;
+}
+
+@keyframes carMove {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(415px);
+    }
+}

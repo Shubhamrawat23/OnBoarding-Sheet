@@ -1,0 +1,232 @@
+#insideBoxExp{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 204px;
+    padding: 24px 0px 32px 0px;
+    gap: 24px;    
+}
+
+#ExpQuesBox{
+    display: flex;
+    width: 360px;
+    height: 56px;
+    padding: 0px 16px 0px 16px;
+    gap: 16px;    
+}
+
+
+#txtExpQues{
+    width: 280px;
+    height: 56px;  
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left; 
+    color: rgba(45, 45, 45, 1);     
+}
+
+#pageNum{
+    display: flex;
+    width: 32px;
+    height: 22px;
+    padding: 3px 8px 3px 8px;
+    gap: 10px;
+    border-radius: 20px; 
+    background-color: rgba(45, 45, 45, 1);   
+}
+
+#pageNum span{
+    width: 16px;
+    height: 16px;    
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;    
+    color: rgba(246, 246, 246, 1);
+}
+
+
+#experienceBox{
+    display: flex;
+    width: 360px;
+    height: 68px;
+    gap: 8px;    
+}
+
+#noneBox{
+    display: flex;
+    flex-direction: column;
+    width: 79px;
+    height: 68px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#noneBox span:first-child{
+    display: inline-block;
+    width: 39px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;   
+    color: rgba(57, 76, 3, 1);
+}
+
+#noneBox span:last-child{
+    display: inline-block;
+    width: 21px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;    
+    color: rgba(103, 124, 43, 1);
+}
+
+#beginnerBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 104px;
+    height: 68px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#beginnerBox span:first-child{
+    display: inline-block;
+    width: 64px;
+    height: 24px;  
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;     
+    color: rgba(57, 76, 3, 1); 
+}
+
+#beginnerBox span:last-child{
+    position: absolute;
+    left: 34.5px;
+    top: 38px;
+    display: block;
+    width: 35px;
+    height: 20px;   
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;   
+    color: rgba(103, 124, 43, 1);  
+}
+
+
+#midBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 79px;
+    height: 68px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#midBox span:first-child{
+    position: absolute;
+    top: 10px;
+    left: 25.5px;
+    display: block;
+    width: 28px;
+    height: 24px;   
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left; 
+    color: rgba(57, 76, 3, 1);    
+}
+
+#midBox span:last-child{
+    position: absolute;
+    left: 20px;
+    top: 38px;
+    display: block;
+    width: 39px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;    
+    color: rgba(103, 124, 43, 1);
+}
+
+#proBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 65px;
+    height:  68px;
+    padding: 10px 20px 10px 20px;
+    gap: 4px;
+    border-radius: 12px; 
+    cursor: pointer;   
+}
+
+#proBox span:first-child{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: block;
+    width: 25px;
+    height: 24px; 
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;  
+    color: rgba(57, 76, 3, 1);     
+}
+
+#proBox span:last-child{
+    position: absolute;
+    top: 38px;
+    left: 20.5px;
+    display: block;
+    width: 24px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;   
+    color: rgba(103, 124, 43, 1); 
+}
+
+.active{
+    background-color: rgba(131, 167, 32, 0.08);
+    border: 2px solid rgba(131, 167, 32, 1);
+}
+
+
+#noneBox:hover, #beginnerBox:hover, #midBox:hover, #proBox:hover{
+    background: rgba(131, 167, 32, 0.08);
+    border: 2px solid rgba(131, 167, 32, 1)
+}

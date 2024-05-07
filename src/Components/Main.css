@@ -1,0 +1,195 @@
+#frame327{
+    position: absolute;
+    top: 175px;
+    width: 360px;
+    height: 624.36px;
+    padding: 0px 0px 24px 0px;
+    border-radius: 24px 24px 0px 0px;
+    border: 1px;
+    background: linear-gradient(180deg, #E6E66A 55.89%, #FFFFDB 70.74%);
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+}
+
+#mainBoxAfterCompleted{
+    position: absolute;
+    top: 265px;
+    width: 360px;
+    height: 534px;
+    border-radius: 24px 24px 0px 0px;
+    background: linear-gradient(180deg, #E6E66A 53.32%, #FFFFDB 70.74%);
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+}
+
+#frame279{
+    position: absolute;
+    left: 160px;
+    bottom: 640px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(45, 45, 45, 0.8);
+    box-shadow: 0px 2px 4px 0px rgba(45, 45, 45, 0.16);
+    cursor: pointer;
+}
+
+#frame1191{
+    display: flex;
+    position: relative;
+    z-index: 10;
+    top: 24px;
+    left: 16px;
+    flex-direction: column;
+    width: 328px;
+    height: 56px;
+    gap: 4px;    
+}
+
+#txtOfStartedFabits{
+    width: 245px;
+    height: 32px;  
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(29, 59, 122, 1);      
+}
+
+#txtOfQues{
+    width: 328px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(46, 82, 158, 1);    
+}
+
+#animationSec{
+    position: relative;
+    display: flex;
+    width: 360px;
+    height: 348.36px;
+    gap: 10px;
+    border-radius: 24px 24px 0px 0px;    
+}
+
+#mainBoxOfExpAndVerify{
+    position: relative;
+    bottom: 72px;
+    width: 360px;
+    height: 252px;    
+}
+
+#nxtBox{
+    display: flex;
+    width: 360px;
+    height: 48px;
+    padding: 0px 16px 0px 16px;
+    gap: 24px;    
+}
+
+#nextBtn{
+    position: relative;
+    display: flex;
+    width: 328px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 12px;
+    justify-content: space-between;    
+    background: rgba(131, 167, 32, 1);
+    border: 0px;
+    cursor: pointer;
+}
+
+#nextBtn span{
+    display: inline-block;
+    width: 35px;
+    height: 24px;    
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;    
+    color: rgba(255, 255, 255, 1);
+}
+
+#arrowBox{
+    width: 24px;
+    height: 24px;
+}
+
+#nxtArrIcon{
+    position: absolute;
+    width: 15.57px;
+    height: 11.13px;
+    top: 18.44px;
+    left: 292px;    
+}
+
+
+#nxtAndCompleteBtnBox{
+    display: flex;
+    width: 360px;
+    height: 48px;
+    padding: 0px 16px;
+    gap: 16px;    
+}
+
+#prevBtnBox{
+    display: flex;
+    width: 56px;
+    height: 48px;
+    padding: 12px 16px;
+    gap: 8px;
+    border-radius: 12px;   
+    background: rgba(245, 248, 204, 1); 
+    border: 2px solid rgba(131, 167, 32, 0.1);
+    cursor: pointer;
+}
+
+#backArr{
+    width: 24px;
+    height: 24px;
+}
+
+
+#completeBox{
+    position: relative;
+    display: flex;
+    width: 256px;
+    height: 48px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    justify-content: space-between;    
+    background: rgba(131, 167, 32, 1);
+    cursor: pointer;
+}
+
+#completeBox span{
+    display: block;
+    width: 75px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;    
+    color: rgba(255, 255, 255, 1);
+}
+
+#completeArrBox{
+    width: 24px;
+    height: 24px;    
+}
+
+#nxtCompleteArrIcon{
+    position: absolute;
+    width: 15.57px;
+    height: 11.13px;
+    top: 18.44px;
+    left: 220px;    
+}

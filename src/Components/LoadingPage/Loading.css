@@ -1,0 +1,37 @@
+#boxOfFetchingData{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 534px;
+    padding: 48px 16px;
+    gap: 4px;  
+}
+
+#headingOfFetchDataTxt{
+    position: relative;
+    z-index: 50;
+    display: block;
+    width: 273px;
+    height: 32px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;    
+    color: rgba(29, 59, 122, 1);        
+}
+
+#subHeadingOfFetchDataTxt{
+    position: relative;
+    z-index: 50;
+    display: block;
+    width: 328px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(46, 82, 158, 1);        
+}

@@ -1,0 +1,21 @@
+.carIcon{
+    position: relative;
+    top: 190px;
+    right: 430px;
+    transform: translateX(0);
+    width: 91.03px;
+    height: 46.18px;
+}
+
+.moveAnimation{
+    animation: carMove 3s ease-in-out 1 forwards;
+}
+
+@keyframes carMove {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(415px);
+    }
+}

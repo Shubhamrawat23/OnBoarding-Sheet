@@ -1,0 +1,71 @@
+#blurBgBox{
+    width: 360px;
+    height: 699px;
+    gap: 10px;
+    border-radius: 24px 24px 0px 0px;   
+    overflow: hidden; 
+}
+
+#blurBg{
+    position: relative;
+    left: -150px;
+    width: 664.86px;
+    height: 701.14px;
+    gap: 0px;
+    opacity: 0px;
+    filter: blur(4px);
+}
+
+#verifyDetailsBox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    width: 360px;
+    height: 699px;
+    padding: 48px 16px 0px 16px;
+    gap: 24px;
+    border-radius: 24px 24px 0px 0px;   
+    background: rgba(255, 255, 255, 0.01); 
+}
+
+#verfiyTxtBox{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 56px;
+    gap: 4px;    
+}
+
+#verfiyTxtBox span:first-child{
+    display: block;
+    width: 193px;
+    height: 32px;    
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;    
+    color: rgba(29, 59, 122, 1);
+}
+
+#verfiyTxtBox span:last-child{
+    display: block;
+    width: 328px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;    
+    color: rgba(46, 82, 158, 1);
+}
+
+#allDetailsMainBox{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 490px;
+    gap: 24px;    
+}

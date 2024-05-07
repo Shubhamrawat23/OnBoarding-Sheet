@@ -1,0 +1,170 @@
+#verifyMainBox{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 272px;
+    padding: 24px 0px 32px 0px;
+    gap: 24px;    
+}
+
+#panVerifyBox{
+    display: flex;
+    width: 360px;
+    height: 56px;
+    padding: 0px 16px 0px 16px;
+    gap: 16px;    
+}
+
+#txtOfPanVerify{
+    width: 277px;
+    height: 56px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);
+}
+
+#secondPageBox{
+    display: flex;
+    width: 35px;
+    height: 22px;
+    padding: 3px 8px 3px 8px;
+    gap: 10px;
+    border-radius: 20px;  
+    background: rgba(45, 45, 45, 1);  
+}
+
+#secondPageBox span{
+    display: block;
+    width: 19px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(246, 246, 246, 1);
+}
+
+#verifyMethodBox{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 68px;
+    padding: 0px 16px 0px 16px;
+    gap: 4px;    
+}
+
+#verifyMethodBox span{
+    width: 131px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;    
+    color: rgba(87, 87, 87, 1);
+}
+
+#methodInsideBox{
+    display: flex;
+    width: 328px;
+    height: 44px;
+    gap: 8px;    
+}
+
+#manualBox,#autoBox{
+    position: relative;
+    display: flex;
+    width: 160px;
+    height: 44px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    gap: 4px;
+    cursor: pointer;
+}
+
+#txtManual{
+    position: absolute;
+    top: 10px;
+    left: 53.5px;
+    width: 53px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;    
+    color: rgba(57, 76, 3, 1);
+}
+
+#txtAutomatic{
+    position: absolute;
+    top: 10px;
+    left: 41.5px;
+    width: 77px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(57, 76, 3, 1);        
+}
+
+
+#panBox{
+    position: relative;
+    display: flex;
+    width: 360px;
+    height: 44px;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+#txtOfPanLabel{
+    position: relative;
+    top: 12px;
+    width: 119px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;  
+    color: rgba(87, 87, 87, 1);  
+}
+
+#panCardNum{
+    display: flex;
+    width: 160px;
+    height: 44px;
+    padding: 10px 16px;
+    gap: 4px;
+    border-radius: 12px;  
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;    
+    color: rgba(57, 76, 3, 1); 
+    background: rgba(245, 248, 204, 1);
+    border: 1px solid rgba(234, 240, 187, 1);
+}
+
+
+#manualBox:hover, #autoBox:hover{
+    background: rgba(131, 167, 32, 0.08);
+    border: 2px solid rgba(131, 167, 32, 1);
+}
+
+
+.activeVerifyBox{
+    background: rgba(131, 167, 32, 0.08);
+    border: 2px solid rgba(131, 167, 32, 1);
+}

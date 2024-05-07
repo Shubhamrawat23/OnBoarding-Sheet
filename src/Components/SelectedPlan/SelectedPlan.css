@@ -1,0 +1,195 @@
+#selectPLanMain{
+    display: flex;
+    width: 360px;
+    height: 580px;
+    padding: 16px 16px 8px 16px;
+    gap: 16px;  
+    opacity: 0.5;
+}
+
+#planBox{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 188px;
+    padding: 20px;
+    gap: 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(211, 219, 236, 1);
+}
+
+#glanceTxt{
+    position: absolute;
+    left: 141px;
+    width: 77px;
+    height: 16px;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(128, 141, 179, 1);        
+}
+
+#priceMain{
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 120px;
+    gap: 16px;    
+}
+
+#priceInsideBox{
+    position: absolute;
+    left: 101px;
+    top: 160px;
+    width: 157px;
+    height: 64px;    
+}
+
+#planPrice{
+    position: relative;
+    left: -10px;
+    width: 175px;
+    height: 48px;    
+    font-family: Orelega One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;   
+    color: rgba(65, 85, 141, 1);   
+}
+
+#pricePlan span{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#txtCurrentValue{
+    position: absolute;
+    left: 45px;
+    width: 78px;
+    height: 16px;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);      
+}
+
+#investMain{
+    display: flex;
+    width: 288px;
+    height: 40px;
+    padding: 0px 24px 0px 24px;
+    justify-content: space-between;   
+    position: absolute;
+    left: 36px; 
+    top: 240px;
+}
+
+#invesetInsideBox{
+    width: 97px;
+    height: 40px;    
+}
+
+#investPrice{
+    width: 72px;
+    height: 24px; 
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);
+}
+
+#investPrice span{
+    font-size: 12px;
+    line-height: 16px; 
+}
+
+#txtInvestAmt{
+    width: 97px;
+    height: 16px;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);        
+}
+
+#profitBox{
+    width: 98px;
+    height: 40px;    
+}
+
+#profitPrice{
+    width: 58px;
+    height: 24px;  
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);
+}
+
+#profitPrice span{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#returnBox{
+    display: flex;
+    width: 98px;
+    height: 16px;
+    gap: 4px;    
+}
+
+#txtReturn{
+    width: 44px;
+    height: 16px;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);       
+}
+
+#rtrnPercentBox{
+    display: flex;
+    width: 50px;
+    height: 16px;
+    gap: 2px;    
+}
+
+#returnArrowBox{
+    position: relative;
+    width: 14px;
+    height: 14px;    
+}
+
+#arrRtnsIcon{
+    position: absolute;
+    width: 11.67px;
+    height: 11.67px;
+    top: 2.16px;
+    left: 1.17px;    
+}
+
+#rtnPercent{
+    display: inline-block;
+    width: 34px;
+    height: 16px;    
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(116, 167, 102, 1);    
+}

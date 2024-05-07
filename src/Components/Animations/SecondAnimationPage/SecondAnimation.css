@@ -1,0 +1,64 @@
+#secondImgBox{
+    position: absolute;
+    top: -4px;
+    left: 1px;
+    z-index: 40;
+    display: flex;
+    width: 360px;
+    height: 534px;
+    gap: 10px;
+    border-radius: 24px 24px 0px 0px;    
+}
+
+#bgLoadingScene{
+    width: 664.86px;
+    height: 534px;    
+    border-radius: 24px 24px 0 0;
+}
+
+#carLoading{
+    position: relative;
+    top: 335px;
+    right: 440px;
+    width: 131px;
+    height: 66px;    
+    animation: LoadingCar 8s ease-in-out 1 forwards;
+}
+
+@keyframes LoadingCar {
+    0% {
+        right: 440px;
+    }
+    49% {
+        right: 220px;
+        transform: translateY(-1.2%);
+    }
+    50% {
+        right: 220px;
+        transform: translateY(1.2%);
+    }
+    51% {
+        right: 220px;
+        transform: translateY(-1.2%);
+    }
+    52% {
+        right: 220px;
+        transform: translateY(1.2%);
+    }
+    53% {
+        right: 220px;
+        transform: translateY(-1.2%);
+    }
+    54% {
+        right: 220px;
+        transform: translateY(1.2%);
+    }
+    55% {
+        right: 220px;
+        transform: translateY(-1.2%);
+    }
+    100% {
+        right: 0px;
+        display: none;
+    }
+}
