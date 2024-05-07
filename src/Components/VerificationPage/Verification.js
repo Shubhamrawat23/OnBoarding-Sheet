@@ -12,7 +12,7 @@ export default function Verification(){
             <div id="blurBgBox">
 
                 <div id="bgInsideBox">
-                    <img src={BlurBg} alt="bavkground" id="blurBg"/>
+                    <img src={BlurBg} alt="background" id="blurBg"/>
                 </div>
             </div>
 

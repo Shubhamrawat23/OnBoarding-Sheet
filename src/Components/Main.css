@@ -1,4 +1,4 @@
-#frame327{
+#mainBoxOfOnBoardSheet{
     position: absolute;
     top: 175px;
     width: 360px;
@@ -20,7 +20,7 @@
     box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
 }
 
-#frame279{
+#crossBox{
     position: absolute;
     left: 160px;
     bottom: 640px;
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-#frame1191{
+#txtOfFabitsMainB0x{
     display: flex;
     position: relative;
     z-index: 10;

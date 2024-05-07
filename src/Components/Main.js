@@ -61,10 +61,10 @@ export default function Main() {
 
 
 
-            <div id={data && data.completed ? "mainBoxAfterCompleted" : "frame327"}
+            <div id={data && data.completed ? "mainBoxAfterCompleted" : "mainBoxOfOnBoardSheet"}
                 style={data && data.loadingComplete ? { height: "699px", top: "100px" } : {}}>
 
-                <div id="frame279"
+                <div id="crossBox"
                     onClick={data && data.completed ? handleCloseClick : null}
                     style={data && data.loadingComplete ? { bottom: '715.01px' } : {}}>
 
@@ -79,7 +79,7 @@ export default function Main() {
                             (<Loading />)
                     ) :
                     (<>
-                        <div id="frame1191">
+                        <div id="txtOfFabitsMainB0x">
 
                             <div id="txtOfStartedFabits">
                                 Get started with Fabits
