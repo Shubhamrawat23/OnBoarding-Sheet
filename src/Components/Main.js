@@ -25,7 +25,8 @@ export default function Main() {
             page: 1,
             panCardNumber: '',
             verifyMethod: 'Automatic',
-            completed: false
+            completed: false,
+            loadingComplete: false,
         }))
     }
 
@@ -61,11 +62,11 @@ export default function Main() {
 
 
             <div id={data && data.completed ? "mainBoxAfterCompleted" : "frame327"}
-            style={data && data.loadingComplete?{height:"699px",top:"100px"}:{}}>
+                style={data && data.loadingComplete ? { height: "699px", top: "100px" } : {}}>
 
                 <div id="frame279"
                     onClick={data && data.completed ? handleCloseClick : null}
-                    style={data && data.loadingComplete ? {bottom:'715.01px' } : {}}>
+                    style={data && data.loadingComplete ? { bottom: '715.01px' } : {}}>
 
                     <img src={Close} alt="close" id="closeIcon" />
                 </div>

@@ -17,7 +17,9 @@ export default function FirstAnimation(){
 
             //remove animation after 3sec
                 setTimeout(()=>{
-                    carRef.current.classList.remove('moveAnimation')
+                    if (carRef.current) {
+                        carRef.current.classList.remove('moveAnimation');
+                    }
                 },3000)
 
         }

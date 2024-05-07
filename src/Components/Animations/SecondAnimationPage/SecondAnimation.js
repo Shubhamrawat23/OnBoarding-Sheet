@@ -11,7 +11,7 @@ export default function SecondAnimation(){
     useEffect(()=>{
         const blurness =  setTimeout(() => {
             setIsBlur(true)
-        }, 8000);
+        }, 7000);
         
         return () => {
             clearTimeout(blurness)
@@ -20,10 +20,12 @@ export default function SecondAnimation(){
 
     useEffect(() => {
         if (isBlur) {
-            setData(prevData => ({
-                ...prevData,
-                loadingComplete: true
-            }));
+            setTimeout(() => {
+                setData(prevData => ({
+                    ...prevData,
+                    loadingComplete: true
+                }))
+            }, 1000);
         }
     }, [isBlur, setData]);
 
